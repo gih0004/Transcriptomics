@@ -53,7 +53,7 @@ echo "HISAT2 finished running!" # only use this line if running directly from te
 
 
 
-###Step 3: converting SAM files to BAM files
+### Step 3: converting SAM files to BAM files
 ```ruby
 module load samtools
 for i in /scratch/aubclsb0203/Project/HaIM/*.sam  #you can change the absolute path to relative path
