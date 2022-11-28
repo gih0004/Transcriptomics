@@ -104,7 +104,6 @@ for file in *.bam;
 
 stringtie -e -B -p 8 -G stringtie_merged_sunflower.gtf -o /scratch/aubclsb0203/Project/HaIM/ballgown/$tag/$tag.gtf $tag.bam
 
-htseq -count ${tag}.bam genomic.gtf > ${tag}_count
 done
 
 duration=$SECONDS
